@@ -1,0 +1,10 @@
+a) What are the differences you notice between searching for between searching for a
+term as a “search term” versus as a categorical term? What thoughts does this
+raise in your mind about working with Google Trends data?
+Answer: the big difference I have been seeing was the percentages and the numeric values between the search term and the categorical term. I also see the Excel sheet looks more organized than the notepad version.
+a) Try comparing “Hamburger (Food)” to some search terms oriented toward pop
+culture or current events. For instance, you might compare to “football” or
+“olympics.” What do you notice? What do you think other patterns in search
+behavior might represent?
+Answer: might represent the way of how this have fluctuated over time in certain areas and was stagnant in other areas.
+2. Save your updates to Ex2A_ThinkingCritically.txt.
