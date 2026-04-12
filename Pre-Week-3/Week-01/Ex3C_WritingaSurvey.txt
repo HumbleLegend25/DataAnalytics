@@ -1,0 +1,42 @@
+1. Before diving into trying to build the actual survey form, spend a little time thinking and 
+making notes about what kind of information you want to gather.
+a) What kind of customer data will be useful to the restaurant? How will they want to 
+use that customer information? How many customers normally come in and eat their food. The demographic environment where people are located, What makes their food so special, What colorsthey can use and website they should create?
+
+b) You’re a customer – what kind of feedback would you want to give? What things are 
+unique to this restaurant that you might ask about?
+Definitely giving feedback on how the food tasted and what could be done to make it better.
+
+c) What kind of questions might yield useful information that could help shape the 
+direction of the new customer reward program?
+What does the customer reward program consist of?
+
+d) How long should the survey be? Consider that typing text responses takes longer 
+than choosing multiple choice options. How does that impact what questions you 
+ask?
+Survey should be a couple of pages long to make sure all of the required questions are answered.
+
+
+5. Give your form a title and description.
+a) Clearly include the name of the restaurant plus a brief description of what they 
+offer. Remember that this is customer-facing, so make it friendly and in keeping 
+with the restaurant’s brand.
+6. Use the Add New button to begin adding questions to your survey. 
+a) Review your notes, and start creating questions. Your survey should include 5 to 10 
+questions total.
+b) Consider including some questions about the customer’s recent experience and 
+some geared towards researching a possible rewards program. Include a variety of 
+question types (e.g. multiple choice, text box, rating). 
+c) There is no strict requirement for the number of questions, but avoid asking more 
+than 10. Ideally the survey should take no more than five minutes to fill out – you 
+want a good amount of information, but you don’t want customers to get bored and 
+abandon it halfway through!
+7. Use the Style options to give an appealing format to your form.
+8. Make sure to use Preview to see what your form will look like from the customer’s 
+point of view.
+9. When you are happy with your survey, use the Collect Responses button to set up 
+options for sharing.
+a) Consider what options might work best to share this survey with customers. How 
+can you make it easy for customers to respond? What other questions might you 
+need to include if you want to follow up with customers later?
+10. Copy the link or QR code to share your survey, and post it to the class channel.
