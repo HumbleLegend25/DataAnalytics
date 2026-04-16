@@ -1,0 +1,1 @@
+/* Sakila is database used to collect information about movies and actors for use */
