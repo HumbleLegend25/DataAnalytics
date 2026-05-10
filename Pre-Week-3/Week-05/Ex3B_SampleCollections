@@ -1,0 +1,30 @@
+# Lab 1 - Movie List
+
+movies = [
+    "The Dark Knight",
+    "Interstellar",
+    "Spider-Man: Into the Spider-Verse",
+    "Black Panther",
+    "The Matrix",
+    "Soul",
+    "Parasite"
+]
+
+# Print descriptive statement using len()
+print(f"The movies list includes my top {len(movies)} favorite movies")
+
+# Print the complete list
+print(movies)
+
+# Print sorted list using sorted() - does NOT modify original list
+print(sorted(movies))
+print(movies)  # original list unchanged
+
+# Sort using .sort() - MODIFIES the original list permanently
+movies.sort()
+print(movies)  # now permanently sorted
+
+# Add a new movie using .append()
+movies.append("Get Out")
+print(f"The movies list includes my top {len(movies)} favorite movies")
+print(movies)

@@ -1,0 +1,63 @@
+# Fahrenheit to Celsius: C = (F - 32) x 5/9
+
+fahrenheit = 98.6
+celsius = (fahrenheit - 32) * 5/9
+
+print(f"{fahrenheit}°F is equal to {format(celsius, '.2f')}°C")
+
+# Celsius to Fahrenheit: F = (C x 9/5) + 32
+
+celsius = 37.0
+fahrenheit = (celsius * 9/5) + 32
+
+print(f"{celsius}°C is equal to {format(fahrenheit, '.2f')}°F")
+
+# Federal tax = 23% of monthly salary
+
+monthly_salary = 5000.00
+tax_rate = 0.23
+taxes_withheld = monthly_salary * tax_rate
+
+print(f"Your monthly salary is ${format(monthly_salary, '.2f')}")
+print(f"Taxes withheld (23%) are ${format(taxes_withheld, '.2f')}")
+print(f"Your take home pay is ${format(monthly_salary - taxes_withheld, '.2f')}")
+
+# Distance = sqrt((x2-x1)^2 + (y2-y1)^2)
+import math
+
+x1, y1 = 2, 3
+x2, y2 = 7, 11
+
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+print(f"The distance between ({x1},{y1}) and ({x2},{y2}) is {format(distance, '.2f')}")
+
+# Tiles needed = length x width, 12 tiles per box, buy 10% extra
+import math
+
+length = 15
+width = 12
+tiles_needed = length * width
+tiles_with_extra = tiles_needed * 1.10
+boxes_needed = math.ceil(tiles_with_extra / 12)
+
+print(f"Room dimensions: {length} x {width} feet")
+print(f"Tiles needed (with 10% extra): {math.ceil(tiles_with_extra)}")
+print(f"Total boxes to buy: {boxes_needed}")
+
+# Van rentals: 15 passengers per van, $250 per van per day
+import math
+
+num_tourists = 38
+van_capacity = 15
+van_cost = 250
+
+vans_needed = math.ceil(num_tourists / van_capacity)
+total_cost = vans_needed * van_cost
+cost_per_person = total_cost / num_tourists
+
+print(f"Number of tourists: {num_tourists}")
+print(f"Vans needed: {vans_needed}")
+print(f"Total van cost: ${format(total_cost, '.2f')}")
+print(f"Cost per person: ${format(cost_per_person, '.2f')}")
+

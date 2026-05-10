@@ -1,0 +1,37 @@
+
+a_num = int(float(a.strip()))  
+b_num = int(b)                  
+c_num = int(c[:3])            
+d_num = int(d[7])               
+
+# --- Print values and types ---
+print(a, type(a))
+print(b, type(b))
+print(c, type(c))
+print(d, type(d))
+
+
+print(a.strip())  
+print(d.strip())  
+name_1 = "PRIYA SHARMA"
+name_2 = "bob NGUYEN"
+name_3 = "LaTonya Williams"
+salary_1 = "$82,500"
+salary_2 = "$74,000"
+
+
+print(name_1.lower())
+print(name_2.lower())
+print(name_3.lower())
+
+print(name_1.title())
+print(name_2.title())
+print(name_3.title())
+
+print(salary_1.replace("$", ""))
+print(salary_2.replace("$", ""))
+
+salary_1_clean = int(salary_1.replace("$", "").replace(",", ""))
+print(salary_1_clean)
+print(type(salary_1_clean))
+
