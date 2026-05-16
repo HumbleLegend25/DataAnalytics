@@ -1,0 +1,30 @@
+# Exercise 2.A Using built-in functions
+## Lab 1. Working with names - parsing strings
+test_name = 'oluwafemi farinloye'
+def parse_and_display(name):
+    for i in range(len(name)):
+        if name[i] == ' ':
+            first = name[:i]
+            last = name[i+1:]
+            print(f"Full name: {name}")
+            print(f"First name: {first}")
+            print(f"Last name:  {last}")
+            parse_and_display(test_name)
+            parse_and_display(test_list[0])  
+parse_and_display(test_list[1]) 
+parse_and_display(test_list[2])  
+    parts = name.split()
+    print(f"Full name: {name}")
+    if len(parts) == 1:
+        print(f"First name: {parts[0]}")
+    elif len(parts) == 2:
+        print(f"First name: {parts[0]}")
+        print(f"Last name:  {parts[1]}")
+    elif len(parts) == 3:
+        print(f"First name:  {parts[0]}")
+        print(f"Middle name: {parts[1]}")
+        print(f"Last name:   {parts[2]}")
+
+parse_and_display2('Lorde')
+parse_and_display2('Billie Eilish')
+parse_and_display2('Megan Thee Stallion')

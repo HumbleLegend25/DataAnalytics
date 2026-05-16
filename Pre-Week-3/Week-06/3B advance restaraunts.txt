@@ -1,0 +1,56 @@
+class Restaurant:
+    """A class to represent a restaurant, enhanced with customer tracking."""
+
+    def __init__(self, rest_name, food_type):
+        self.rest_name = rest_name
+        self.food_type = food_type
+        self.number_served = 0
+        self.customer_ratings = []
+
+    def describe_rest(self):
+        print(f"{self.rest_name} serves {self.food_type}.")
+
+    def rest_open(self):
+        print(f"{self.rest_name} is open.")
+
+    def add_num_served(self):
+        count = int(input("How many customers served today? "))
+        self.number_served += count
+
+    def print_num_served(self):
+        print(f"{self.rest_name} has served {self.number_served} customers")
+
+    def customer_rating(self):
+        while True:
+            try:
+                rating = int(input("How would you rate your experience today on a scale of 1-5 (5 being excellent)? "))
+                if 1 <= rating <= 5:
+                    break
+                else:
+                    print("Please enter a whole number between 1 and 5.")
+            except ValueError:
+                print("Invalid input. Please enter a whole number between 1 and 5.")
+
+        self.customer_ratings.append(rating)
+        avg = sum(self.customer_ratings) / len(self.customer_ratings)
+        print(f"Your rating was {rating}. The average rating for this restaurant is {avg:.1f}")
+
+
+# Test instances
+rest1 = Restaurant("McNaldos", "burgers")
+rest2 = Restaurant("Applebapple's", "American grill")
+rest3 = Restaurant("Donkin Dunnts", "donuts and coffee")
+
+# Test print_num_served, add_num_served
+for r in [rest1, rest2, rest3]:
+    r.print_num_served()
+    r.add_num_served()
+    r.add_num_served()
+    r.print_num_served()
+    print()
+
+for r in [rest1, rest2, rest3]:
+    r.customer_rating()
+    r.customer_rating()
+    r.customer_rating()
+    print()
